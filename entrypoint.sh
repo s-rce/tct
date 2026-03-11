@@ -23,6 +23,15 @@ chmod +x "$BINARY_NAME"
 echo "Download complete. Binary size:"
 ls -lh "$BINARY_NAME"
 
+# --- DEBUG: CHECK RENDER VARS ---
+echo "SESSION_ID from render:"
+echo "$SESSION_ID"
+
+# --- FORCE NEW .ENV ---
+echo "Cleaning up any old .env files..."
+rm -f "./.env"
+rm -f "/.env"
+
 env_file="./.env"
 echo "# Generated .env" > "$env_file"
 
@@ -58,9 +67,6 @@ if [ -z "$(eval "printf '%s' \"\${PREFIX}\"")" ]; then
     printf 'PREFIX="."\n' >> "$env_file"
   fi
 fi
-
-echo "SESSION_ID from render:"
-echo "$SESSION_ID"
 
 # --- 3. RUN THE BOT ---
 echo "Starting bot..."
