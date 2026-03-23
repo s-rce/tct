@@ -37,6 +37,7 @@ It provides full control over your WhatsApp automation with:
 </p>
 
 ---
+[Watch watch how to setup the Dashboard](https://youtu.be/XxxZQ-Jd5ac)
 
 ## Supported Languages
 
