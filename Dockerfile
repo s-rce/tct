@@ -8,8 +8,7 @@ WORKDIR /
 
 COPY . .
 
-RUN chmod +x /entrypoint.sh \
- && chmod -R 755 /data || true
+RUN chmod +x /entrypoint.sh 
 
 EXPOSE 7860
 
