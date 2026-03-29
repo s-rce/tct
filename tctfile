@@ -63,3 +63,7 @@ WELCOME_IMAGES:
   - "https://t-ct.org/media/welcome8.jpg"
   - "https://t-ct.org/media/welcome9.jpg"
 PREFIX: "."
+
+# Don't chamge this unless you know what you are doing
+HTTP_PROXY: "none"
+HTTPS_PROXY: "none"
