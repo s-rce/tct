@@ -153,3 +153,13 @@ WELCOME_IMAGES:
 # ------------------------------------------------------------------------------
 #HTTP_PROXY: "none"
 #HTTPS_PROXY: "none"
+
+# Enable or disable logging to a file
+# true  -> logs will be written to a file
+# false -> logs will only appear in console or other handlers
+LOG_TO_FILE: false
+
+# Path to the log file where logs will be stored
+# Make sure the directory exists (e.g., "data/")
+# and that the application has write permissions
+LOG_FILE_PATH: "data/app.log"
