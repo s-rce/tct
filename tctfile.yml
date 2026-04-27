@@ -189,3 +189,18 @@ LOG_LEVEL: "info"
 # Shows only Error messages.
 # Absolute minimum logging, only prints when something actually breaks.
 #LOG_LEVEL: "error"
+
+# ---------------------------
+# PostgreSQL Configuration
+# ---------------------------
+
+# Full PostgreSQL connection URL format:
+# postgresql://<username>:<password>@<host>:<port>/<database>
+
+# Example 1 (standard local database):
+# POSTGRES_URL: "postgresql://postgres:mysecretpassword@localhost:5432/mydatabase"
+
+# Sync interval (time is in SECONDS)
+# This controls how often the app syncs with the database
+# Example: 60 = every 1 minute
+# POSTGRES_SYNC_INTERVAL: 60
