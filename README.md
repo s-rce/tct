@@ -1,21 +1,33 @@
-# <img src="https://t-ct.org/media/tct.png" alt="TCT Logo" width="80"/>
+<div align="center">
+
+# <img src="https://t-ct.org/media/tct.png" alt="TCT Logo" width="80" />
 
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue?style=for-the-badge&logo=telegram)](https://t.me/TheCarlTech)
 [![WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Channel-green?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbCTviw8qIzlACm6Cy0t)
-[![GitHub version](https://img.shields.io/github/v/release/i-tct/tct?label=version&style=for-the-badge)](https://github.com/i-tct/tct/releases/latest)
+[![GitHub version](https://img.shields.io/github/v/release/i-tct/tct?label=Latest%20Release&style=for-the-badge)](https://github.com/i-tct/tct/releases/latest)
+
+<p><strong>A Fast WA Bot Built with Go</strong></p>
+
+</div>
 
 ---
+
+<div align="center">
 
 ## 📢 Community
-- **Telegram Group:** [Join here](https://t.me/TheCarlTech)  
-- **WhatsApp Channel:** [Follow here](https://whatsapp.com/channel/0029VbCTviw8qIzlACm6Cy0t)
+
+<a href="https://t.me/TheCarlTech">Telegram Group</a> ·
+<a href="https://whatsapp.com/channel/0029VbCTviw8qIzlACm6Cy0t">WhatsApp Channel</a>
 
 ## 📦 Latest Release
-Grab the newest version from the [GitHub Releases](https://github.com/i-tct/tct/releases/latest).
-> *A Fast WA Bot Built with Go*  
 
+Grab the newest version from the <a href="https://github.com/i-tct/tct/releases/latest">GitHub Releases</a>.
+
+</div>
 
 ---
+
+<div align="center">
 
 ## About
 
@@ -23,183 +35,253 @@ Grab the newest version from the [GitHub Releases](https://github.com/i-tct/tct/
 
 It provides full control over your WhatsApp automation with:
 
-- ⚡ High-performance **pure Go engine**
-- 🌍 **Multi-language support**
-- 👥 **Advanced group management**
-- 📊 Easy set usage **view dashboard**
+⚡ High-performance **pure Go engine**  
+🌍 **Multi-language support**  
+👥 **Advanced group management**  
+📊 Easy set usage **view dashboard**
 
-### Dashboard Preview
+## Dashboard Preview
 
-<p align="center">
+<p>
   <img src="https://t-ct.org/media/dash1.jpg" width="30%" />
   <img src="https://t-ct.org/media/dash2.jpg" width="30%" />
   <img src="https://t-ct.org/media/dash3.jpg" width="30%" />
 </p>
 
+<p>
+  <a href="https://youtu.be/XxxZQ-Jd5ac">Watch how to set up the Dashboard</a>
+</p>
+
+</div>
+
 ---
-[Watch watch how to setup the Dashboard](https://youtu.be/XxxZQ-Jd5ac)
+
+<div align="center">
 
 ## Supported Languages
 
-| Language    | Code | Region | Command        |
-|-------------|------|--------|----------------|
-| Arabic      | `ar` | 🇸🇦     | `.lang ar`     |
-| English     | `en` | 🇺🇸     | `.lang en`     |
-| Spanish     | `es` | 🇪🇸     | `.lang es`     |
-| French      | `fr` | 🇫🇷     | `.lang fr`     |
-| Hindi       | `hi` | 🇮🇳     | `.lang hi`     |
-| Portuguese  | `pt` | 🇵🇹     | `.lang pt`     |
-| Russian     | `ru` | 🇷🇺     | `.lang ru`     |
-| Indonesian  | `id` | 🇮🇩     | `.lang id`     |
-| Swahili     | `sw` | 🇰🇪     | `.lang sw`     |
+<table>
+  <tr>
+    <th>Language</th>
+    <th>Code</th>
+    <th>Region</th>
+    <th>Command</th>
+  </tr>
+  <tr>
+    <td>Arabic</td>
+    <td><code>ar</code></td>
+    <td>🇸🇦</td>
+    <td><code>.lang ar</code></td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td><code>en</code></td>
+    <td>🇺🇸</td>
+    <td><code>.lang en</code></td>
+  </tr>
+  <tr>
+    <td>Spanish</td>
+    <td><code>es</code></td>
+    <td>🇪🇸</td>
+    <td><code>.lang es</code></td>
+  </tr>
+  <tr>
+    <td>French</td>
+    <td><code>fr</code></td>
+    <td>🇫🇷</td>
+    <td><code>.lang fr</code></td>
+  </tr>
+  <tr>
+    <td>Hindi</td>
+    <td><code>hi</code></td>
+    <td>🇮🇳</td>
+    <td><code>.lang hi</code></td>
+  </tr>
+  <tr>
+    <td>Portuguese</td>
+    <td><code>pt</code></td>
+    <td>🇵🇹</td>
+    <td><code>.lang pt</code></td>
+  </tr>
+  <tr>
+    <td>Russian</td>
+    <td><code>ru</code></td>
+    <td>🇷🇺</td>
+    <td><code>.lang ru</code></td>
+  </tr>
+  <tr>
+    <td>Indonesian</td>
+    <td><code>id</code></td>
+    <td>🇮🇩</td>
+    <td><code>.lang id</code></td>
+  </tr>
+  <tr>
+    <td>Swahili</td>
+    <td><code>sw</code></td>
+    <td>🇰🇪</td>
+    <td><code>.lang sw</code></td>
+  </tr>
+</table>
 
-Change the bot language using:
+<p>Change the bot language using:</p>
 
-```
-.lang <language>
-```
+<pre><code>.lang &lt;language&gt;</code></pre>
 
-Example:
+<p>Example:</p>
 
-```
-.lang sw
-```
+<pre><code>.lang sw</code></pre>
+
+</div>
 
 ---
 
+<div align="center">
 
-# Quick Start
+## Quick Start
 
-## 1️⃣ Generate Your Session
+### 1️⃣ Generate Your Session
 
 Before deploying, link your WA account.
 
-[![Get Session](https://img.shields.io/badge/Get-Session_ID-success?style=for-the-badge&logo=whatsapp)](https://i-tct.com/pair/qr)
+<a href="https://i-tct.com/pair/qr">
+  <img src="https://t-ct.org/media/getsessionid.png" alt="Get Session ID" width="320" />
+</a>
+
+</div>
 
 ---
 
-#  Deployment Options
+<div align="center">
 
-## Linux / Ubuntu / VPS
+## Deployment Options
 
-```
-bash <(curl -sL https://t-ct.org/dl/vps)
-```
+### Linux / Ubuntu / VPS
 
-[![VPS Guide](https://img.shields.io/badge/Open-VPS_Guide-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://i-tct.com/vps/)
+<pre><code>bash &lt;(curl -sL https://t-ct.org/dl/vps)</code></pre>
 
----
-
-## Windows
-
-Run in **PowerShell (Admin)**
-
-```
-irm https://t-ct.org/dl/windows | iex
-```
-
-[![Windows Guide](https://img.shields.io/badge/Open-Windows_Guide-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://i-tct.com/windows/)
+<a href="https://i-tct.com/vps/">VPS Guide</a>
 
 ---
 
-## Termux
+### Windows
 
-```
-bash <(curl -sL https://t-ct.org/dl/termux)
-```
+Run in <strong>PowerShell (Admin)</strong>
 
-[![Termux Guide](https://img.shields.io/badge/Open-Termux_Guide-00BFA5?style=for-the-badge&logo=android&logoColor=white)](https://i-tct.com/termux)
+<pre><code>irm https://t-ct.org/dl/windows | iex</code></pre>
 
----
-
-## Deploy on Heroku
-
-[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://i-tct.com/heroku/)
-
-⚠ Edit the `formation` section in `app.json` depending on your Heroku plan.
+<a href="https://i-tct.com/windows/">Windows Guide</a>
 
 ---
 
-## Deploy on Render
+### Termux
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://i-tct.com/render/)
+<pre><code>bash &lt;(curl -sL https://t-ct.org/dl/termux)</code></pre>
 
----
-
-## Deploy via Web Panel
-
-[![Deploy Web Panel](https://img.shields.io/badge/Deploy-Web_Panel-009688?style=for-the-badge&logo=web)](https://i-tct.com/panel/)
+<a href="https://i-tct.com/termux">Termux Guide</a>
 
 ---
 
-#  Resources
+### Deploy on Heroku
+
+<a href="https://i-tct.com/heroku/">Deploy to Heroku</a>
+
+⚠ Edit the <code>formation</code> section in <code>app.json</code> depending on your Heroku plan.
+
+---
+
+### Deploy on Render
+
+<a href="https://i-tct.com/render/">Deploy on Render</a>
+
+---
+
+### Deploy via Web Panel
+
+<a href="https://i-tct.com/panel/">Deploy via Web Panel</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## Resources
 
 ### Documentation
 
-[![Documentation](https://img.shields.io/badge/Docs-8A2BE2?style=for-the-badge&logo=gitbook&logoColor=white)](https://i-tct.com/docs/)
-
----
+<a href="https://i-tct.com/docs/">Documentation</a>
 
 ### Tools
 
-[![Panel](https://img.shields.io/badge/Web_Panel-0066CC?style=for-the-badge&logo=web&logoColor=white)](https://i-tct.com/panel/)
-[![Windows Zip](https://img.shields.io/badge/Windows-Zip-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://i-tct.com/dl/tct-windows.zip)
-
----
+<a href="https://i-tct.com/panel/">Web Panel</a> ·
+<a href="https://i-tct.com/dl/tct-windows.zip">Windows Zip</a>
 
 ### Deployment Guides
 
-[![VPS](https://img.shields.io/badge/VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://i-tct.com/vps)
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://i-tct.com/windows)
-[![Termux](https://img.shields.io/badge/Termux-00BFA5?style=for-the-badge&logo=android&logoColor=white)](https://i-tct.com/termux)
-[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://i-tct.com/heroku/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://i-tct.com/render/)
+<a href="https://i-tct.com/vps">VPS</a> ·
+<a href="https://i-tct.com/windows">Windows</a> ·
+<a href="https://i-tct.com/termux">Termux</a> ·
+<a href="https://i-tct.com/heroku/">Heroku</a> ·
+<a href="https://i-tct.com/render/">Render</a>
+
+</div>
 
 ---
 
-# Feed Plugin
+<div align="center">
+
+## Feed Plugin
 
 This plugin adds feed functionality to your T-CT setup.
 
-## Requirements
+### Requirements
 
 - T-CT version **0.4.4 or higher**
-- Older versions will **NOT** support custom plugins
+- Older versions will **not** support custom plugins
 
-## Installation
+### Installation
 
 1. Download or place the plugin inside your plugins folder.
-2. Restart your T-CT instance or wait for the bot to pick automaticaly.
+2. Restart your T-CT instance or wait for the bot to pick it up automatically.
 
-## Custom Plugins (.lua)
+### Custom Plugins (.lua)
 
 You can now create and use your own custom `.lua` plugins 🎉
 
-👉 To learn how to:
+To learn how to:
 - Create plugins
 - Structure `.lua` files
 - Register and use them
 
-**Please read the official documentation:**
+Read the official documentation:
 
-- https://t-ct.org/docs/plugins
+<a href="https://t-ct.org/docs/plugins">https://t-ct.org/docs/plugins</a>
 
-## Notes
+### Notes
 
 - Only versions **0.4.4+** support custom `.lua` plugins
 - Make sure your plugin follows the correct structure from the docs
 
----
-
-# 💬 Support
-
-[![Telegram Support](https://img.shields.io/badge/Telegram-Support-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
+</div>
 
 ---
 
-# ⭐ TCT
+<div align="center">
+
+## 💬 Support
+
+<a href="https://t.me/TheCarlTech">Telegram Support</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## ⭐ TCT
 
 If you like **TCT**, consider starring the repository on GitHub.
 
----
-See [LICENSE](LICENSE) 
+<a href="LICENSE">See LICENSE</a>
+
+</div>
